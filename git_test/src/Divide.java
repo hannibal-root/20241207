@@ -1,6 +1,6 @@
 public class Divide {
     public static void main(String[] args) {
-        //TODO:  Csinálj egy Divide osztályt, és bele egy div függvényt, ami oszt két számot egymásból.
+        //  Csinálj egy Divide osztályt, és bele egy div függvényt, ami oszt két számot egymásból.
 
         double a = 15;
         double b = 2;
