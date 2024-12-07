@@ -4,5 +4,11 @@ public class Main {
 
         int a = 15;
         int b = 2;
+        
+    }
+    public class AddInt {
+        static int add(int a, int b) {
+            return a+b;
+        }
     }
 }
