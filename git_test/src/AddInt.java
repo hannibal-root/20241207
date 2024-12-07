@@ -3,7 +3,14 @@ public class AddInt {
         int sum = add(5, 6, 10); // Should be 21
 
         System.out.println(sum);
+ 
+  
+  
         System.out.println(neg(5, 6, 10));
+
+        System.out.println(neg(5,6,10));
+        System.out.println(power (5, 4));
+
     }
 
     public static int add(int a, int b, int c) {
@@ -20,5 +27,9 @@ public class AddInt {
             }
             return a / b;
         }
+    }
+
+    public static int power(int a, int b){
+        return a * b;
     }
 }
