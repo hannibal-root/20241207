@@ -4,6 +4,7 @@ public class AddInt {
 
         System.out.println(sum);
         System.out.println(neg(5,6,10));
+        System.out.println(power (5, 4));
     }
 
     public static int add(int a, int b, int c) {
@@ -12,5 +13,9 @@ public class AddInt {
 
     public static int neg(int a, int b, int c){
         return a + (b * -1) + c;
+    }
+
+    public static int power(int a, int b){
+        return a * b;
     }
 }
