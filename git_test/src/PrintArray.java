@@ -10,4 +10,8 @@ public class PrintArray {
             System.out.print(numberArray[i] + " ");
         }
     }
+
+    private static void prntArr2(int[] numberArray) {
+        System.out.print(numberArray[2]);
+    }
 }
